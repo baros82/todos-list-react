@@ -1,0 +1,40 @@
+.section {
+    margin-bottom: 50px;
+  }
+  
+  .section__header {
+    background-color: white;
+    margin: auto;
+    margin-bottom: 2px;
+    padding: 20px;
+    padding-left: 20px;
+    display: grid;  
+    grid-template-columns: auto  1fr;
+    justify-items: end;
+  }
+  
+  .section__title {
+    margin: auto
+  }
+  
+  .section__body {
+    background-color: white;
+    height: 40px;
+    margin-top: -14px;
+  }
+  
+  @media (max-width: 767px) {
+    .section {
+      margin-bottom: 70px;
+    }
+  
+    .section__header {
+      display: grid;
+      grid-template-columns: auto;
+      justify-content: start;
+    }
+  
+    .section__title {
+     margin-left: 10px
+    }
+  }
