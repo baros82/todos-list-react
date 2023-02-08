@@ -30,8 +30,8 @@
   
     .section__header {
       display: grid;
-      grid-template-columns: auto;
-      justify-content: start;
+      grid-template-columns: 1fr;
+      justify-items: center;
     }
   
     .section__title {
